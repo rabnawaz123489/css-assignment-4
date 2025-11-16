@@ -1,0 +1,13 @@
+img {
+    width: 700px;
+    margin: 20px;
+}
+* {
+    text-align: center;
+}
+body {
+    border: double 20px black ; 
+    background-color: rgb(163, 155, 145);
+    overflow: scroll;
+    padding: 50px;
+}
