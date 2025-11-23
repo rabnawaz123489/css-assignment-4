@@ -1,13 +1,29 @@
 img {
-    width: 700px;
+width: 200px;
     margin: 20px;
 }
 * {
     text-align: center;
 }
 body {
-    border: double 20px black ; 
-    background-color: rgb(163, 155, 145);
-    overflow: scroll;
+
+    
     padding: 50px;
+    width: auto;
 }
+.box {
+    border-image:url(./border-image.png);
+    border-image-slice: 20;
+    border-image-repeat: round;
+    border: 20px solid transparent;
+}
+div {
+    width: 400px;
+    height: 500px;
+    border: double;
+    margin-left: auto;
+    overflow: scroll;
+    background-color: rgb(238, 228, 228);
+
+    }
+
